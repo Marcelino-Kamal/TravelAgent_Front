@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://mm-travel.netlify.app//api', 
+  baseURL: 'https://localhost:44338/api', 
 });
 
 export const fetchpackages = async () =>{
